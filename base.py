@@ -15,7 +15,6 @@ doExit = False #variable to quit out of game loop
 #BEGIN GAME LOOP######################################################
 while not doExit:
    
-    clock.tick(60) #FPS (frames per second)
    
     #pygame's way of listening for events (key presses, mouse clicks, etc)
     for event in pygame.event.get():
